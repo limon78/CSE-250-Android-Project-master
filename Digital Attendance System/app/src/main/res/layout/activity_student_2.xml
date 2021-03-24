@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_style"
+    tools:context=".Student_2">
+
+    <EditText
+        android:id="@+id/studentUserId"
+        android:drawableLeft="@drawable/person"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_shape"
+        android:hint=" E-Mail" />
+
+    <EditText
+        android:background="@drawable/edittext_shape"
+        android:id="@+id/studentPasswordId"
+        android:drawableLeft="@drawable/lock"
+        android:hint=" Password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/studentLoginButton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_shape"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

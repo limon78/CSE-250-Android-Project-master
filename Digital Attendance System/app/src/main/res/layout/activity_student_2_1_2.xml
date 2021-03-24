@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_style"
+    tools:context=".Student_2_1_2">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reg. no :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:text="Lecture No."
+                android:layout_width="100dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Date"
+                android:layout_width="80dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="30dp"
+                android:text="Status"
+                android:layout_width="80dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:textColor="@android:color/black"
+                android:text="01"
+                android:layout_width="100dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="01/11/2018"
+                android:layout_width="80dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Present"
+                android:layout_width="80dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:textColor="@android:color/black"
+                android:text="02"
+                android:layout_width="100dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="03/11/2018"
+                android:layout_width="80dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Absent"
+                android:layout_width="80dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:textColor="@android:color/black"
+                android:text="03"
+                android:layout_width="100dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="06/11/2018"
+                android:layout_width="80dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Present"
+                android:layout_width="80dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage : 66.67%"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marks = 6"/>
+
+</LinearLayout>

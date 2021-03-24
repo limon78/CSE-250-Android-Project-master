@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Digital Attendance System</string>
+    <string name="login">Login</string>
+    <string name="text1">Login As</string>
+    <string name="text2">Teacher</string>
+    <string name="text3">Student</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="exit">Exit</string>
+    <string name="exit_title">Alert!</string>
+    <string name="exit_msg">Do you want to exit?</string>
+
+    <string-array name="course_names">
+        <item> CSE 250 </item>
+        <item> CSE 233 </item>
+        <item> CSE 234 </item>
+        <item> CSE 205 </item>
+        <item> CSE 204 </item>
+        <item> CSE 237 </item>
+        <item> CSE 202 </item>
+    </string-array>
+
+    <string-array name="batch_names">
+        <item> 2017 </item>
+        <item> 2016 </item>
+        <item> 2015 </item>
+        <item> 2014 </item>
+    </string-array>
+
+    <string-array name="countryNames">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+        <item> 12 </item>
+        <item> 13 </item>
+        <item> 14 </item>
+        <item> 15 </item>
+        <item> 16 </item>
+        <item> 17 </item>
+        <item> 18 </item>
+        <item> 19 </item>
+        <item> 20 </item>
+        <item> 21 </item>
+        <item> 22 </item>
+        <item> 23 </item>
+        <item> 24</item>
+        <item> 25 </item>
+        <item> 26 </item>
+        <item> 27 </item>
+        <item> 28 </item>
+        <item> 28 </item>
+        <item> 30 </item>
+    </string-array>
+
+    <string-array name="absent_present_names">
+        <item> All Absent </item>
+        <item> All Present </item>
+    </string-array>
+
+</resources>

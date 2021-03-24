@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_style"
+    tools:context=".Teacher_1_2_4">
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="Course No."
+            android:layout_width="100dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Course Title"
+            android:layout_width="80dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Dept."
+            android:layout_width="80dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_width="60dp"
+            android:text="Batch"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="CSE 137"
+            android:layout_width="100dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Data Structure"
+            android:layout_width="80dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="CSE"
+            android:layout_width="80dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_width="60dp"
+            android:text="2017"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="CSE 250"
+            android:layout_width="100dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Project Work"
+            android:layout_width="80dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="CSE"
+            android:layout_width="80dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_width="60dp"
+            android:text="2016"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="CSE 239"
+            android:layout_width="100dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Numerical Analysis"
+            android:layout_width="80dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="CSE"
+            android:layout_width="80dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_width="60dp"
+            android:text="2016"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+</TableLayout>

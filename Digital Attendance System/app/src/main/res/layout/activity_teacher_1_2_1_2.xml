@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_style"
+    tools:context=".Teacher_1_2_1_2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/teacher_grid_spinner1Id"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/studentId1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+
+
+            <Button
+                android:id="@+id/studentId2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331001"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331002"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331003"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="15dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/studentId4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331004"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331005"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331006"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="15dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/studentId7"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId9"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331007"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331008"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331009"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="15dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/studentId10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId11"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId12"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331010"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331011"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331012"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="15dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/studentId13"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId14"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId15"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331013"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331014"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331015"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="15dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/studentId16"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+            <Button
+                android:id="@+id/studentId17"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+
+
+            <Button
+                android:id="@+id/studentId18"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#e40606"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331016"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331017"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016331018"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/student_submitdID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="#ff2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

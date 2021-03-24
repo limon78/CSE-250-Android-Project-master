@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "948551896425",
+    "firebase_url": "https://final-68404.firebaseio.com",
+    "project_id": "final-68404",
+    "storage_bucket": "final-68404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948551896425:android:275811b328235dc1",
+        "android_client_info": {
+          "package_name": "com.example.asus.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948551896425-fnbvm2g4vhirku2aerlgprs2if7caqhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXDOY-iI5EVh4SO3h3CWHIuYCEGBRneuY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

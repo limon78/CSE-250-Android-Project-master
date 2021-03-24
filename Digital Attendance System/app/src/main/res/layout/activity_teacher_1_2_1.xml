@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background_style"
+    android:orientation="vertical"
+    tools:context=".Teacher_1_2_1">
+
+    <TextView
+        android:id="@+id/teacher1_2_1text1Id"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the Batch"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/teacherspinner1Id"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/teacher1_2_1text2Id"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Select the Course"
+        />
+
+    <Spinner
+        android:id="@+id/teacherspinner2Id"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/datepickerbuttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Select the Date"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@android:color/black"
+        android:text="DD/MM/YY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/teacher1_2_1text3Id"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/teacher_1_2_1submitButtonId"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/login_shape"
+        android:text="Next"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_style"
+    android:gravity="center"
+    tools:context=".Student_2_1">
+
+    <TextView
+        android:id="@+id/student_2_1textId"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the course"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Spinner
+        android:id="@+id/studentSpinnerID"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        ></Spinner>
+
+    <Button
+        android:id="@+id/student_2_1submitbuttonId"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_shape"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"/>
+
+</LinearLayout>
